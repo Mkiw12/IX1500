@@ -9,6 +9,8 @@ unique_paths = set(itertools.permutations(move))
 valid_paths = []
 
 
+
+
 # Check each path for validity
 for path in unique_paths:
     y = 3  # Start y-coordinate
@@ -31,3 +33,5 @@ for path in unique_paths:
 # Print all valid paths
 for valid_path in valid_paths:
     print(valid_path)
+
+print("Valid paths:",len(valid_path))
